@@ -16,18 +16,18 @@ Em um certo momento estas informações deverão ser exibidas em um modal criado
 Você pode usar qualquer site para desenvolver o teste, na hora de postar seu código para a avaliação, nos informe a URL em que devemos injetar o seu script para testar.
 
 ## Requisitos
-- Utilização de PHP 7 (vamos testar na versão 7.0 do PHP)
-- Algorítimos inteligentes e ageis para não alterar o fluxo do site
-- Salvar as informções recebidas e retornar uma forma de identificar o cliente posteriormente
+- Utilização de PHP 7 (vamos testar na versão 7 do PHP)
+- Algorítimos inteligentes e ageis para não alterar o fluxo do site.
+- Salvar as informações recebidas e retornar uma forma de identificar o cliente posteriormente caso ele utilize as mesmas informações.
 - Se o cliente já existir no banco e alterar alguma informação, esta informação deverá ser atualizada.
-- Se for utilizar jQuery, utilizar o do próprio site injetado (não podemos carregar mais que um arquivo de script dentro da página injetada)
-- É desejavel que as informações sejam trafegadas de forma segura
+- Se for utilizar jQuery, utilizar script instanciado do próprio site injetado. (não podemos carregar mais que um arquivo de script dentro da página injetada)
+- É desejavel que as informações sejam trafegadas de forma segura.
 
 
 ## Informações úteis
-Dentro do código temos o arquivo api.php que devera receber o POST com os dados e o shopback.js que vai ser injetado na loja.
+Dentro do código temos o arquivo api.php que devera receber o POST com os dados e o shopback.js que será injetado na loja.
 
-Existem várias formas de processar e salvar as informações (banco de dados NoSql ou SQL) desejamos ver algorítimos inteligentes e bem estruturados.
+Existem várias formas de processar e salvar as informações (banco de dados NoSql, SQL, CSV, etc...) desejamos ver algorítimos inteligentes e bem estruturados.
 
 Código de injeção de JS:
 ```js
@@ -41,3 +41,5 @@ Código de injeção de JS:
   sc.parentNode.insertBefore(ss, sc);
 })();
 ```
+
+(Hospedagem de arquivo JS)[http://yourjavascript.com/]
