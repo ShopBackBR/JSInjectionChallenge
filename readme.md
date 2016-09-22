@@ -42,4 +42,4 @@ Código de injeção de JS:
 })();
 ```
 
-(Hospedagem de arquivo JS)[http://yourjavascript.com/]
+Hospedagem de arquivo JS: http://yourjavascript.com/
