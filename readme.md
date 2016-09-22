@@ -6,7 +6,7 @@ Imagine o cenário em que você precise injetar um único arquivo .js em uma loj
 
 Estes dados podem ser capturados de várias formas diferentes, monitorando formulários, buscando em variaveis globais e/ou outros meios.
 
-Precisam ser capturados pelo menos os seguintes dados utilizando o método do JS _shopback.in:
+Precisam ser capturados pelo menos os seguintes dados utilizando o método do JS _shopback.sendData:
 - E-Mail
 - Nome
 - Sobrenome
